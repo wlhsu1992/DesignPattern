@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryModelSolution", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyModelStructure", "StrategyModelStructure\StrategyModelStructure.csproj", "{5253FA67-90B4-45A8-8750-941EECA62EBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyModelImplement", "StrategyModelImplement\StrategyModelImplement.csproj", "{5D685A3E-A877-4F40-9B33-19C1F3F47778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5253FA67-90B4-45A8-8750-941EECA62EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5253FA67-90B4-45A8-8750-941EECA62EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5253FA67-90B4-45A8-8750-941EECA62EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
