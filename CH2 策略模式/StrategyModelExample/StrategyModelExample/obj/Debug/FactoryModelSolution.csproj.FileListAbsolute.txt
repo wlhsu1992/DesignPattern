@@ -1,0 +1,7 @@
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\bin\Debug\StrategyModelExample.exe.config
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\bin\Debug\StrategyModelExample.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\bin\Debug\StrategyModelExample.pdb
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\obj\Debug\FactoryModelSolution.csprojAssemblyReference.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\obj\Debug\FactoryModelSolution.csproj.CoreCompileInputs.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\obj\Debug\StrategyModelExample.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\StrategyModelExample\obj\Debug\StrategyModelExample.pdb

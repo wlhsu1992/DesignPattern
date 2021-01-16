@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyModelExample
+namespace FactoryModelSolution
 {
     /// <summary>
     /// 正常收費子類別
