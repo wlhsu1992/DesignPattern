@@ -1,0 +1,7 @@
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\bin\Debug\1_CashSystem.exe.config
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\bin\Debug\1_CashSystem.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\bin\Debug\1_CashSystem.pdb
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\obj\Debug\1_CashSystem.csprojAssemblyReference.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\obj\Debug\1_CashSystem.csproj.CoreCompileInputs.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\obj\Debug\1_CashSystem.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH2 策略模式\StrategyModelExample\1_CashSystem\obj\Debug\1_CashSystem.pdb

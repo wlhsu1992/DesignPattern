@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryModelSolution", "StrategyModelExample\FactoryModelSolution.csproj", "{A9896168-4008-4632-BC67-B15F892DEF62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_FactoryModelSolution", "StrategyModelExample\2_FactoryModelSolution.csproj", "{A9896168-4008-4632-BC67-B15F892DEF62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyModelStructure", "StrategyModelStructure\StrategyModelStructure.csproj", "{5253FA67-90B4-45A8-8750-941EECA62EBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_StrategyModelStructure", "StrategyModelStructure\3_StrategyModelStructure.csproj", "{5253FA67-90B4-45A8-8750-941EECA62EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyModelImplement", "StrategyModelImplement\StrategyModelImplement.csproj", "{5D685A3E-A877-4F40-9B33-19C1F3F47778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_StrategyModelImplement", "StrategyModelImplement\4_StrategyModelImplement.csproj", "{5D685A3E-A877-4F40-9B33-19C1F3F47778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_CashSystem", "1_CashSystem\1_CashSystem.csproj", "{01CBE75C-A4F1-4F04-B089-E6D9B7A5AC58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D685A3E-A877-4F40-9B33-19C1F3F47778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CBE75C-A4F1-4F04-B089-E6D9B7A5AC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CBE75C-A4F1-4F04-B089-E6D9B7A5AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CBE75C-A4F1-4F04-B089-E6D9B7A5AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CBE75C-A4F1-4F04-B089-E6D9B7A5AC58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
