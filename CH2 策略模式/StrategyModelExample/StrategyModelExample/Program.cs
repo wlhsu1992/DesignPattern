@@ -10,43 +10,33 @@ namespace FactoryModelSolution
     {
         static void Main(string[] args)
         {
-            string[] cashModel = new string[] { "正常收費", "滿300送100", "打8折" };
+            //資料輸入
+            Product product = new Product(1000, 1);
+            string[] cashModel = new string[] { "正常收費", "滿300送100", "打八折" };
+            string selectCashModel = getCashModel(cashModel);
 
-            //工廠模式生成計價類別物件
-            CashSuper csuper = CashFactory.createCashAccept(getCashModel(cashModel));
+            //計算商品結帳總額
+            CashSuper cs = CashFactory.createCashAccept(selectCashModel);
+            double finalPrice = cs.acceptCash(product.Price * product.Num);
 
-            //取得商品價格、數量資訊
-            double price = getProductPrice();
-            int num = getProductNumber();
-
-            //使用多型計算應收金額
-            double totalPrice = csuper.acceptCash(price * num);
-            printCashInfo(price, num, totalPrice);
+            //資料輸出
+            printCashInfo(product.Price, product.Num, finalPrice);
         }
 
+        /// <summary>
+        /// 取得計價方案
+        /// </summary>
         static string getCashModel(string[] cashModel)
         {
-            Console.WriteLine("請選擇計價模式");
+            Console.WriteLine("選擇折扣方案");
             for (int i = 0; i < cashModel.Length; i++)
-                Console.WriteLine($"{i + 1}. {cashModel[i]}");
-            int selectModelIndex = Convert.ToInt32(Console.ReadLine()) - 1;
-            string selectCashModel = cashModel[selectModelIndex];
-            Console.WriteLine($"選擇計價模式: {selectCashModel}");
-            return selectCashModel;
+                Console.WriteLine($"{i+1}. {cashModel[i]}");
+            return cashModel[Convert.ToInt32(Console.ReadLine()) - 1];
         }
 
-        static double getProductPrice()
-        {
-            Console.WriteLine("輸入商品單價:");
-            return Convert.ToDouble(Console.ReadLine());
-        }
-
-        static int getProductNumber()
-        {
-            Console.WriteLine("輸入商品件數:");
-            return Convert.ToInt32(Console.ReadLine());
-        }
-
+        /// <summary>
+        /// 印出結帳資訊
+        /// </summary>
         static void printCashInfo(double price, int num, double totalPrice)
         {
             Console.WriteLine($"單價: {price}\n數量: {num}\n總額: {totalPrice}");

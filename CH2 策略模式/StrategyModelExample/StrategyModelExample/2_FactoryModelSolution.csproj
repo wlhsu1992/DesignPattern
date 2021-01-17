@@ -46,6 +46,7 @@
     <Compile Include="CashFactory.cs" />
     <Compile Include="CashModule.cs" />
     <Compile Include="CashSuper.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
