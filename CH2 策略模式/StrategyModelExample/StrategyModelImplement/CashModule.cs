@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace StrategyModelImplement
 {
+    /// <summary>
+    /// 正常收費子類別
+    /// </summary>
     class CashNormal : CashSuper
     {
         public override double acceptCash(double money)
@@ -14,6 +17,9 @@ namespace StrategyModelImplement
         }
     }
 
+    /// <summary>
+    /// 打折收費子類別
+    /// </summary>
     class CashRebate : CashSuper
     {
         private double rebate = 1d;
@@ -29,6 +35,9 @@ namespace StrategyModelImplement
         }
     }
     
+    /// <summary>
+    /// 紅利收費子類別
+    /// </summary>
     class CashReturn : CashSuper
     {
         private double returnCondition = 0.0d;

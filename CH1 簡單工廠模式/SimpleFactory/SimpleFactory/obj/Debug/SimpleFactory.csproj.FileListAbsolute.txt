@@ -5,3 +5,7 @@ C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\簡單工�
 C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csproj.CoreCompileInputs.cache
 C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.exe
 C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.pdb
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csprojAssemblyReference.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csproj.CoreCompileInputs.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.pdb

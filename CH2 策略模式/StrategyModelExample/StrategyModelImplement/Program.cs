@@ -10,16 +10,17 @@ namespace StrategyModelImplement
     {
         static void Main(string[] args)
         {
+            //輸入處理: Product.Price:商品單價; Product.Num: 商品數量; cashModel: 折扣模式
+            Product product = new Product(1000, 2);
             string[] cashModelArray = new string[] { "正常收費", "滿300送100", "打8折" };
             string cashModel = getCashModel(cashModelArray);
-            CashContext cc = getCashContext(cashModel);
 
-            //取得商品價格、數量資訊
-            double price = getProductPrice();
-            int num = getProductNumber();
-            double totalPrice = cc.GetResult(price * num);
+            //策略模式計算商品價格
+            CashContext csuper = new CashContext(cashModel);
+            double totalPrice = csuper.GetResult(product.Price * product.Num);
 
-            printCashInfo(price, num, totalPrice);
+            //輸出處理
+            printCashInfo(product.Price, product.Num, totalPrice);
         }
 
         static string getCashModel(string[] cashModel)
@@ -31,36 +32,6 @@ namespace StrategyModelImplement
             string selectCashModel = cashModel[selectModelIndex];
             Console.WriteLine($"選擇計價模式: {selectCashModel}");
             return selectCashModel;
-        }
-
-        static CashContext getCashContext(string type)
-        {
-            CashContext cc = null;
-            switch (type) 
-            {
-                case "正常收費":
-                    cc = new CashContext(new CashNormal());
-                    break;
-                case "滿300送100":
-                    cc = new CashContext(new CashReturn(300, 100));
-                    break;
-                case "打8折":
-                    cc = new CashContext(new CashRebate(0.8));
-                    break;
-            }
-            return cc;
-        }
-
-        static double getProductPrice()
-        {
-            Console.WriteLine("輸入商品單價:");
-            return Convert.ToDouble(Console.ReadLine());
-        }
-
-        static int getProductNumber()
-        {
-            Console.WriteLine("輸入商品件數:");
-            return Convert.ToInt32(Console.ReadLine());
         }
 
         static void printCashInfo(double price, int num, double totalPrice)

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D685A3E-A877-4F40-9B33-19C1F3F47778}</ProjectGuid>
+    <ProjectGuid>{A1EB9D14-65BB-46D7-A586-524A3AF9CB83}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StrategyModelImplement</RootNamespace>
-    <AssemblyName>StrategyModelImplement</AssemblyName>
+    <RootNamespace>_3_polymorphism</RootNamespace>
+    <AssemblyName>3_polymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CashContext.cs" />
-    <Compile Include="CashModule.cs" />
-    <Compile Include="CashSuper.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Operation.cs" />
+    <Compile Include="OperationFactory.cs" />
+    <Compile Include="OperationModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

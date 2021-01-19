@@ -1,0 +1,7 @@
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\bin\Debug\1_SimpleArithmetic.exe.config
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\bin\Debug\1_SimpleArithmetic.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\bin\Debug\1_SimpleArithmetic.pdb
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\obj\Debug\1_SimpleArithmetic.csprojAssemblyReference.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\obj\Debug\1_SimpleArithmetic.csproj.CoreCompileInputs.cache
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\obj\Debug\1_SimpleArithmetic.exe
+C:\Users\WeiLin.Hsu.SENSENGO\Desktop\testProject\backend\設計模式\CH1 簡單工廠模式\SimpleFactory\1_SimpleArithmetic\obj\Debug\1_SimpleArithmetic.pdb

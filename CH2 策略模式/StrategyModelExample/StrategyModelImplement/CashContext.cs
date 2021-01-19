@@ -13,12 +13,23 @@ namespace StrategyModelImplement
         /// <summary>
         /// 建構式，傳入具體收費策略
         /// </summary>
-        public CashContext(CashSuper csuper)
+        public CashContext(string type)
         {
-            this.cs = csuper;
+            switch (type)
+            {
+                case "正常收費":
+                    cs = new CashNormal();
+                    break;
+                case "滿300送100":
+                    cs = new CashReturn(300, 100);
+                    break;
+                case "打8折":
+                    cs = new CashRebate(0.8);
+                    break;
+            }
         }
 
-        public double GetResult(double money)
+    public double GetResult(double money)
         {
             // 根據收費策略的不同，獲得計算結果
             return cs.acceptCash(money);
